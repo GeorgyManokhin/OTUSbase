@@ -1,6 +1,14 @@
-package testing;
+import java.util.Scanner;
 
 public class testing {
+    public static void main(String[] args) {
+        String Question = getQuestion();
+    }
+public static String getQuestion() {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Вопрос первый");
+    return sc.nextLine();
+    }
 }
 
 
