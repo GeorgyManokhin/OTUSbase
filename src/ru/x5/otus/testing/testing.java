@@ -1,4 +1,4 @@
-package testing;
+package ru.x5.otus.testing;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ public class testing {
     }
 public static String getQuestion() {
     Scanner sc = new Scanner(System.in);
-    System.out.println("Вопрос первый");
+    System.out.println("Что с русским???");
     return sc.nextLine();
     }
 }

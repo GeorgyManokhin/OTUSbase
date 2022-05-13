@@ -1,3 +1,5 @@
+package ru.x5.otus.homework2;
+
 import java.util.Base64;
 import java.util.Scanner;
 public class HomeWork {
